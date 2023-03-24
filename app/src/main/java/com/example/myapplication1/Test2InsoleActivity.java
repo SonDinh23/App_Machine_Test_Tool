@@ -82,7 +82,7 @@ public class Test2InsoleActivity extends AppCompatActivity {
             }
         });
 
-        myRef1.child("datacount2L").addValueEventListener(new ValueEventListener() {
+        myRef1.child("alo").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange( DataSnapshot snapshot) {
                 Integer value = snapshot.getValue(Integer.class);
